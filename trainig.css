@@ -1,0 +1,45 @@
+
+body  {
+  margin: 0;
+  padding: 0;
+}
+
+header  {
+  position: fixd;
+  top: 0;
+  background-color: burlywood;
+  width: 100%;
+  padding: 30px 10px;
+  display: flex;
+  align-items: center;
+}
+
+h1  {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: fantasy;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+ margin: 0 20px 0 auto;
+}
+
+ul  {
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+li  {
+  margin: 0px 0px 0px 15px;
+  float: left;
+}
+
+.circle {
+  width: 100px;
+  height: auto;
+  border-radius: 60%;
+}
+
