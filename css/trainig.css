@@ -1,0 +1,139 @@
+
+body  {
+  margin: 0;
+  padding: 0;
+}
+
+header  {
+  position: fixd;
+  top: 0;
+  background-color: burlywood;
+  width: 100%;
+  padding: 30px 10px;
+  display: flex;
+  align-items: center;
+}
+
+h1  {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: fantasy;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+ margin: 0 20px 0 auto;
+}
+
+.header  {
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.header li  {
+  margin: 0px 0px 0px 15px;
+  float: left;
+}
+
+main  {
+  margin:0;
+  width: 100%;
+}
+
+.introduce img  {
+  width: 180px;
+  height: 180px;
+  border-radius: 60%;
+}
+
+.introduce  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduce div  {
+ 
+  float: left;
+}
+
+.introduce span {
+  font-weight: bold;
+}
+
+.introduce p  {
+  text-align: center;
+}
+
+.choose-1 {
+  text-align: center;
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.choose-1 label {
+  margin: 0px 20px 0px 0px;
+}
+
+.sec-2  {
+  font-size: 20px;
+}
+
+form {
+  background-color: lightskyblue;
+  text-align: center;
+}
+
+.form {
+  margin: 0;
+  padding: 16px;
+  font-size: 20px;
+}
+
+.profile-pic  {
+  width: 250px;
+  height: auto;
+  float: left;
+  padding: 15px 15px 15px 50px;
+}
+
+.profile  {
+  display: flex;
+  align-items: center;
+}
+
+.profile span {
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer-list ul  {
+  
+  list-style: none;
+  
+  display: inline-flex;
+}
+
+.footer-list  {
+  margin: 30px auto 0px 50px;
+}
+
+.footer-list li {
+  margin: 0px 0px 0px 15px;
+}
+
+footer  {
+  background-color: mediumspringgreen;
+  display: flex;
+}
+
+.footer-list2 ul {
+  float: right;
+  list-style: none;
+}
+
+.footer-list2 {
+  margin-right: 50px;
+}

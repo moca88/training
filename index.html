@@ -10,7 +10,7 @@
     <header>
       <h1>coffee training</h1>
       <nav>
-        <ul>
+        <ul class="header">
           <li><a href="https://www.instagram.com/m0ca_au_lait/">instagram</a></li>
           <li><a href="https://www.youtube.com/channel/UCnsIVuZ4xRJXGv-tnG8Q4Ow?view_as=subscriber">youtube</a></li>
           <li><a href="https://mocatabi.com/">mocatabi</a></li>
@@ -21,30 +21,66 @@
     <main>
       <section class="introduce">
         <div class="rose">
-          <img class="circle" src="img/rose.jpg"/>
-          <span>①</span>
-          <p>My rose!<br>This is too difficult to draw on coffee. But it's beautifu,right!?</p>
+          <p>
+          <img class="circle" src="img/rose.jpg"/><br>
+          <span>①</span><br>
+          My rose!<br>This is too difficult to draw on coffee.<br>But it's beautifu,right!?</p>
         </div>
         <div>
-          <img class="ellipse" src="img/totoro.jpg"/>
-          <span>②</span>
-          <p>My totoro!<br>This image from Japanese animation. Cute!!!</p>
+          <p><img class="ellipse" src="img/totoro.jpg"/><br>
+          <span>②</span><br>
+          My totoro!<br>This image from Japanese animation. Cute!!!</p>
         </div>
         <div>
-          <img class="triangle" src="img/swan.jpg"/>
-          <span>③</span>
-          <p>My swan!<br>It looks like dragon! So difficult..</p>
+          <p><img class="triangle" src="img/swan.jpg"/><br>
+          <span>③</span><br>
+          My swan!<br>It looks like dragon! So difficult..</p>
         </div>
       </section>
 
-      <section>
+      <section class="choose-1">
+        <p class="sec-2">Which latte art do you like?</p>
+        <div class="choose">
+          <input id="choose1" type="radio" name="like">
+          <label for="choose1">①ROSE</label>
+          <input id="choose2" type="radio" name="like">
+          <label for="choose2">②TOTORO</label>
+          <input id="choose3" type="radio" name="like">
+          <label for="chose3">③SWAN</label>
+        </div>
       </section>
-      <section>
+
+      <form>
+        <p class="form">What do you want me to draw?</p>
+        <textarea name="comment" placeholder="Heart,Bear..." cols="50" rows="3"></textarea>
+        <input name="submit" type="submit" value="Send">
+      </form>
+
+      <section class="profile">
+        <img class="profile-pic" src="img/tomo.JPG"/>
+        <p><span>Barista Moca</span><br>Just started training latte art in New Zealand!<br>Also I'm learning coffee taste. I like Coffee taste like blueberry and chocolate!!</p>
       </section>
       <section></section>
     </main>
 
-
-    <footer></footer>
+    <footer>
+      <nav class="footer-list">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/m0ca_au_lait/">HOME CAFE</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/m0ca_au_lait/">Lazy cafe Moca</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer-list2">
+        <ul>
+          <li>About</li>
+          <li>Barista</li>
+          <li>Moca</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

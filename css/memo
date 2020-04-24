@@ -1,0 +1,7 @@
+.ellipse {
+  clip-path: ellipse(150px 100px at 310px 350px);
+}
+
+.triangle {
+  border-radius: 40px 15px 50px 15px;
+}
